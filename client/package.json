@@ -8,14 +8,16 @@
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start -p 3002",
+    "start-client": "react-scripts start -p 3002",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "react-scripts build && (cd ../backend/ && npm start)"
   },
   "eslintConfig": {
     "extends": [
