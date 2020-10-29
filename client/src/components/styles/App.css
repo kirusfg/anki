@@ -6,4 +6,6 @@
   height: 100vh;
 
   background-color: var(--bgc);
+  background-image: var(--bgi);
 }
+

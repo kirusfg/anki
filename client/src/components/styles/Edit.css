@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+.Edit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  max-width: 1800px;
+
+  overflow: scroll;
+
+  padding: 0.5rem;
+}

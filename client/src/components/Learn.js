@@ -44,6 +44,7 @@ const Learn = () => {
           title={card.title}
           category={card.category}
           definition={card.definition}
+          mode="learn"
           handleDelete={handleDelete}
         />
       ))
