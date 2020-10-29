@@ -1,14 +1,13 @@
 .Card {
   display: flex;
   flex-direction: column;
+
   min-width: 300px;
   max-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
 
-  margin: 0.5em;
-  padding: 0.5em;
-
-  background-color: #000;
-  color: white;
+  margin-right: 0.5rem;
 }
 
 .Card h3 {
@@ -18,10 +17,12 @@
 .Card span {
   width: auto;
   text-align: center;
-
-  border: 1px solid white;
 }
 
 .Card p {
   text-align: center;
+}
+
+.Card button {
+  width: 100%;
 }

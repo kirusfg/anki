@@ -1,0 +1,66 @@
+.Alert {
+  position: absolute;
+  z-index: 99999;
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Alert .panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 30rem;
+  height: 10rem;
+}
+
+.Alert.Warning .panel {
+  border: 1px solid var(--error);
+}
+
+.Alert.Success .panel {
+  border: 1px solid var(--success);
+}
+
+.Alert.Info .panel {
+  border: 1px solid var(--accent);
+}
+
+.Alert .panel button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.2rem;
+
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text);
+
+  border: none;
+  outline: none;
+}
+
+.Alert .panel button {
+  cursor: pointer;
+}
+
+.Alert .panel h2,
+.Alert .panel p {
+  width: 100%;
+  text-align: center;
+}
+
+.Alert .panel p {
+  font-size: 1.1rem;
+}
+
+.Alert .panel h2 {
+  margin-bottom: 1rem;
+}

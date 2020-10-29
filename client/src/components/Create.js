@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./styles/Create.css";
+
 const Create = () => {
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");

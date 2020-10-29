@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import Card from "./Card";
 
-import "./Learn.css";
+import "./styles/Learn.css";
 
 const Learn = () => {
   const [cardsData, setCardsData] = useState([]);
